@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html xmlns:th="http//www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout"
+        layout:decorate="~{layouts/layout}">
+
+<div layout:fragment="content">
+    <p><span th:text="${say}">Hi</span> Thymeleaf</p>
+    <p><span th:text="${say2}">Bye</span> Thymeleaf</p>
+
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckDefault">
+        <label class="form-check-label" for="flexCheckDefault" th:text="${say}">
+            Default checkbox
+        </label> Thymeleaf
+    </div>
+    <div class="form-check">
+        <input class="form-check-input" type="checkbox" value="" id="flexCheckChecked" checked>
+        <label class="form-check-label" for="flexCheckChecked" th:text="${say2}">
+            Checked checkbox
+        </label> Thymeleaf
+    </div>
+</div>
+</html>

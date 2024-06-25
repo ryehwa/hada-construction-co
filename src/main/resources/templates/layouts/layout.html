@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th="http://www.thymeleaf.org"
+      xmlns:layout="http://www.ultraq.net.nz/thymeleaf/layout">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- config -->
+    <th:block th:replace="fragments/config :: config"></th:block>
+    <title>하다건설</title>
+</head>
+<!-- header -->
+<header th:replace="fragments/header :: header"></header>
+<!-- body -->
+<body layout:fragment="content"></body>
+<!-- footer -->
+<footer th:replace="fragments/footer :: footer"></footer>
+</html>
