@@ -1,0 +1,12 @@
+.logo {
+    width: 12vw;
+    height : auto;
+    margin : 1.5vh 0 1.5vh 4vw;
+}
+.nav-item {
+    margin: 0 2vw;
+}
+.menu {
+    color: #1C1C1C;
+    font-size : 1.1em;
+}

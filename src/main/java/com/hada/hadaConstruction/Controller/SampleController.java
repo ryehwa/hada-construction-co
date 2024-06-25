@@ -15,4 +15,10 @@ public class SampleController {
         model.addAttribute("say2", "ByeBye");
         return "test";
     }
+
+    @GetMapping("/say2")
+    public String test2(Model model) {
+        model.addAttribute("ok", "Okay");
+        return "linkTest";
+    }
 }
