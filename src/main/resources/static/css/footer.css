@@ -1,0 +1,19 @@
+
+.contact {
+    font-size: 1.5em;
+}
+.number {
+    font-size: 1em;
+}
+.info {
+    font-size: 0.7em;
+}
+.copyright {
+    font-size: 0.5em;
+}
+.simple_logo {
+    width: 3vw;
+    height: auto;
+    padding: 0;
+    margin: 0 -0.5vw 0 0;
+}
