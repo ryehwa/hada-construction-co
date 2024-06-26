@@ -12,18 +12,21 @@
 <!--                <span class="navbar-toggler-icon"></span>-->
 <!--            </button>-->
             <!-- -->
-            <div class="collapse navbar-collapse" id="navbarScroll">
-                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll menu-ul" style="--bs-scroll-height: 100px;">
-                    <li class="nav-item">
-                        <a class="nav-link menu" aria-current="page" th:href="@{/sample/test2}">회사 소개</a>
+            <div class="collapse navbar-collapse row" id="navbarScroll">
+                <ul class="navbar-nav me-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px;">
+                    <li class="nav-item col">
+                        <a class="nav-link menu" aria-current="page" th:href="@{/sample/test1}">HOME</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item col">
+                        <a class="nav-link menu" th:href="@{/sample/test2}">회사 소개</a>
+                    </li>
+                    <li class="nav-item col">
                         <a class="nav-link menu" th:href="@{/sample/test3}">시공 사례</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item col">
                         <a class="nav-link menu" th:href="@{/sample/test4}">Contact</a>
                     </li>
-                    <li class="nav-item">
+                    <li class="nav-item col">
                         <a class="nav-link menu" th:href="@{/sample/test5}">온라인 견적 문의</a>
                     </li>
                 </ul>

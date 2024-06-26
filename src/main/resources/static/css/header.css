@@ -1,15 +1,10 @@
 .logo {
     width: 12vw;
     height : auto;
-    margin : 1.5vh 0 1.5vh 4vw;
+    margin : 1.5vh 14vw 1.5vh 4vw;
 }
-.nav-item {
-    margin: 0 4vw 0 4vw;
-    /*padding: 0 3vw 0 3vw;*/
-
-}
-.menu-ul {
-    margin-left: 15vw;
+#navbarScroll {
+    padding-right: 5vw;
 }
 .menu {
     color: #1C1C1C;

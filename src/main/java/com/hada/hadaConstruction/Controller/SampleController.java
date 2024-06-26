@@ -16,6 +16,13 @@ public class SampleController {
         return "test";
     }
 
+    @GetMapping("/test1")
+    public String test1(Model model) {
+        model.addAttribute("home", "HOME");
+        model.addAttribute("ok", "Okay");
+        return "linkTest";
+    }
+
     @GetMapping("/test2")
     public String test2(Model model) {
         model.addAttribute("company", "회사소개");
